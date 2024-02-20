@@ -1,7 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:responsive_dash_board/models/drawer_item_model.dart';
-import 'package:responsive_dash_board/utils/app_images.dart';
-import 'package:responsive_dash_board/widgets/drawer_item.dart';
+
+import '../models/drawer_item_model.dart';
+import '../utils/app_images.dart';
+import 'drawer_item.dart';
 
 class DrawerItemsListView extends StatefulWidget {
   const DrawerItemsListView({
@@ -25,6 +26,7 @@ class _DrawerItemsListViewState extends State<DrawerItemsListView> {
     const DrawerItemModel(
         title: 'My Investments', image: Assets.imagesMyInvestments),
   ];
+
   @override
   Widget build(BuildContext context) {
     return SliverList.builder(
