@@ -21,7 +21,8 @@ class CustomDrawer extends StatelessWidget {
               userInfoModel: UserInfoModel(
                   image: Assets.imagesAvatar3,
                   title: 'Lekan Okeowo',
-                  subTitle: 'demo@gmail.com'),
+                  subTitle: 'demo@gmail.com',
+              ),
             ),
           ),
           SliverToBoxAdapter(

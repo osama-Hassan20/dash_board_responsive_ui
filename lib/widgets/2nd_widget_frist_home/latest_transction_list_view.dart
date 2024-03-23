@@ -1,4 +1,4 @@
-import 'package:dash_board_responsive_ui/widgets/user_info_list_tile.dart';
+import 'package:dash_board_responsive_ui/widgets/shared_widget/user_info_list_tile.dart';
 import 'package:flutter/material.dart';
 
 import '../models/user_info_model.dart';
